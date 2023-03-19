@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="icon"
+      href="../images/favicon.png"
+      type="image/png"
+      sizes="32*32"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1 class="front-name">Login</h1>
+    <hr />
+    <nav class="nav-bar">
+      <a href="../index.html">Home</a>
+      <a href="../about-me/index.html">About me</a>
+      <a href="../contact/index.html">Contact</a>
+      <a href="../register/index.html">Register</a>
+    </nav>
+    <hr />
+
+    <div class="login-wrapper form-wrapper" id="login-id">
+      <form action="script.php" method="GET">
+        <fieldset class="form-box">
+          <legend>Login</legend>
+          <label for="username">Username:</label>
+          <input type="text" name="username" class="login-username" /> <br />
+          <label for="password">Password:</label>
+          <input type="text" name="password" class="login-password" /> <br />
+          <div class="login--wrapper">
+            <div>
+              <button type="submit" class="login-button">Login</button>
+            </div>
+            <div>
+              <a href="forgot_password.php" class="forgot-p"
+                >Forgot password?</a
+              >
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <hr />
+
+    <footer class="footer">
+      <span class="address">Address: Mamaia XXXXXXX</span>
+      <span class="tel">Tel: 074XXXXXXX</span>
+    </footer>
+  </body>
+</html>
